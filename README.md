@@ -8,15 +8,17 @@ Hi! :wave: Thank you for your interest in **PhysicalAuth**. This page intended t
 
 
 :warning:**Disclaimer**: This project is still in development and in alpha phase, not all features are available at the moment. Instructions to build and deploy to your devices are available at [repositories](#repositories)
+
 **Expected relase date: :date: 20.05.2022**
 
 # Table of Contents
--[What is PhysicalAuth?](#what-is-physicalauth)
--[Repositories](#repositories)
--[Requirements](#requirements)
--[State Diagram of PhysicalAuth](#state-diagram-of-physicalauth)
--[Contribution](#contribution)
--[LICENSES](#licenses)
+ - [What is PhysicalAuth?](#what-is-physicalauth)
+ - [Repositories](#repositories)
+ - [Requirements](#requirements)
+ - [State Diagram of PhysicalAuth](#state-diagram-of-physicalauth)
+ - [Milestones](#milestones)
+ - [Contribution](#contribution)
+ - [LICENSES](#license)
 
 
 
@@ -56,6 +58,15 @@ Having our secret keys stored in a device that has **24/7** internet connection 
 
 [![](https://mermaid.ink/img/pako:eNqdkj1rwzAQhv-KuaFDiZeOhhTSpNAS0qHOVnW46s6NqCwZWaoxIf-98kcGtyENuUncPe8jgW4P0hJDBrVHzyuFnw7L9PtOmCTW2-17kqb3yRM6atBx3kHzV0Zqp8DGfijNi6rSSqJX1vwhTygm6psYXlpjWHbxeR6k5LoesufsF0vOM70m39lmiVoGHfW0tV9sxvCpyT-RC-5LnosXbvrQgohpCP5q9mQ8xeaa261dPQzYpHXt8-P_DcSxYAYluxIVxZ3YdzMBfsclC8jikbjAoL0AYQ4RDRVF4SMpbx1kBeqaZ4DB27w1EjLvAh-hcbVG6vAD4p7WhQ)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqdkj1rwzAQhv-KuaFDiZeOhhTSpNAS0qHOVnW46s6NqCwZWaoxIf-98kcGtyENuUncPe8jgW4P0hJDBrVHzyuFnw7L9PtOmCTW2-17kqb3yRM6atBx3kHzV0Zqp8DGfijNi6rSSqJX1vwhTygm6psYXlpjWHbxeR6k5LoesufsF0vOM70m39lmiVoGHfW0tV9sxvCpyT-RC-5LnosXbvrQgohpCP5q9mQ8xeaa261dPQzYpHXt8-P_DcSxYAYluxIVxZ3YdzMBfsclC8jikbjAoL0AYQ4RDRVF4SMpbx1kBeqaZ4DB27w1EjLvAh-hcbVG6vAD4p7WhQ)
 > State Diagram of PhysicalAuth
+
+# Milestones
+
+ - [x] Create Wire Up Scheme
+ - [x] Create RESTful API using Flask
+ - [x] Create Mobile Application
+ - [ ] Add Update/Delete Functionality to Mobile Application
+ - [ ] Make Mobile Application UI Better
+ - [ ] Design A Case for Device
 
 # Contribution
   Everybody who is passionate about developing information security and also software is welcome to make contributions. You can open a pull request and write a summary about your contribution.
