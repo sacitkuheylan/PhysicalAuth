@@ -35,8 +35,8 @@ Having our secret keys stored in a device that has **24/7** internet connection 
 # Repositories
   PhysicalAuth Project consists of 2 different software. You can access repositories through the links below. Each repository has their own detailed instructions at their **readme page**. In order to install and deploy **PhysicalAuth** correctly, you need to have Embedded Software and Mobile Application together.
 
- 1. Embedded Software written using **Python** [[Link]](https://github.com/sacitkuheylan/PhysicalAuthEmbedded)
- 2. Mobile Application written using **Flutter** [[Link]](https://github.com/sacitkuheylan/PhysicalAuthMobile)
+ 1. [Embedded Software written using **Python**](https://github.com/sacitkuheylan/PhysicalAuthEmbedded)
+ 2. [Mobile Application written using **Flutter**](https://github.com/sacitkuheylan/PhysicalAuthMobile)
 
 # Requirements
   Hardware and Software Requirements are as following. I am still developing and testing with the hardware and software configuration below. There is no guarantee that PhysicalAuth will work on different hardware or software combinations.
@@ -44,6 +44,8 @@ Having our secret keys stored in a device that has **24/7** internet connection 
  	 - A **Wi-Fi Capable** Development Board runs **Linux** (I have used **Raspberry Pi Model 3B+**)
 	 - An OLED Screen (I have used 0.91" **SSD1306**)
 	 - A Real Time Clock Module (I have used **PCF8523**)
+	 - Some Jumper Wires
+	 - A Push Button
  - Software
 	 - A Linux Distrubution capable to run Python
 	 - iOS or Android Mobile Device
