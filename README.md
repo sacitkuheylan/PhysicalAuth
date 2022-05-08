@@ -24,12 +24,12 @@ Hi! :wave: Thank you for your interest in **PhysicalAuth**. This page intended t
 
 # What is PhysicalAuth?
 #### Project Description
-  PhysicalAuth is a Hardware  **2FA** (Two-Factor Authentication) or **MFA** (Multi Factor Authentication) token generator that takes your token safety to next level. We all know that keeping our accounts are the most important thing in our digital life. That's why we use **2FA** (Two-Factor Authentication) or **MFA** (Multi Factor Authentication). Most of the time we use mobile applications such as **Google Authenticator** **eklenecek**. We add our secret keys to those applications and it calculates us a **TOTP** (Time-Based One Time Password) for us.
+  PhysicalAuth is a Hardware  **2FA** (Two-Factor Authentication) or **MFA** (Multi Factor Authentication) token generator that takes your token safety to next level. We all know that keeping our accounts are the most important thing in our digital life. That's why we use **2FA** (Two-Factor Authentication) or **MFA** (Multi Factor Authentication). Most of the time we use mobile applications such as Authy, GoogleAuthenticator, Microsoft Authenticator or LastPass Authenticator. We add our secret keys to those applications and it calculates us a **TOTP** (Time-Based One Time Password) for us.
 
 Having our secret keys stored in a device that has **24/7** internet connection is not always safe. To prevent getting our secret keys or tokens stolen. I am proud to introduce you to **PhysicalAuth**.
 
 #### What is TOTP (Time-Based One Time Password)
-  TOTP (Time-Based One Time Password) is a generally 6 digit (sometimes 8) number sequence that is generated using a Base64 Encoded Secret Key. It has time interval of 30 seconds and it is calucluated using UNIX Time and Bas64 Encoded Secret Key. As it has 30 seconds interval, it is not same and impossible to guess.
+  TOTP (Time-Based One Time Password) is a generally 6 digit (sometimes 8) number sequence that is generated using a Base64 Encoded Secret Key. It has time interval of 30 seconds and it is calucluated using UNIX Time and Base64 Encoded Secret Key. As it has 30 seconds interval, it is not same and impossible to guess.
 #### How does PhysicalAuth work?
   As mentioned in description, PhysicalAuth is a hardware-based token generator and it is compliant with **IETF RFC6238** (Internet Engineering Task Force) Standarts. All you need to do is wire up your hardware and install the mobile application (Available for **iOS** and **Android**/Developed using **Flutter**). Once you power up your device and install your mobile application. You can connect to your device from mobile application via LAN (Local Area Network). The device itself is isolated in your network and it does not send/receive packets outside yor LAN (Local Area Network). That's why your device is safe and convenient.   
 # Repositories
