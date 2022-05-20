@@ -67,7 +67,7 @@ Having our secret keys stored in a device that has **24/7** internet connection 
  - [x] Create Wire Up Scheme
  - [x] Create RESTful API using Flask
  - [x] Create Mobile Application
- - [ ] Add Update/Delete Functionality to Mobile Application
+ - [x] Add Update/Delete Functionality to Mobile Application
  - [ ] Make Mobile Application UI Better
  - [ ] Design A Case for Device
 
